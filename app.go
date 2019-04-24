@@ -29,3 +29,4 @@ func main() {
 	fmt.Printf("Starting echo app om port " + port + "\n")
 	http.ListenAndServe(":" + port, nil)
 }
+ 
